@@ -47,6 +47,7 @@ mandatory arguments:
 ## Raw Data
 Raw data from this study are provided in the gzipped tar file: raw_data.tar.gz. This contains two subdirectories corresponding to data from MPRA 1 and 2 study stages. Here, raw data is preprocessed, and refers to mapped barcode counts (merged_counts.txt file generated using the MPRA_BC_counter.py script), useful for downstream analysis (see above for file format). Variant metadata files are also provided.
 
+```
 Meta data columns:
  group          allele: "ref" or "alt"
  ID             unique MPRA ID# for a given variant
@@ -67,7 +68,9 @@ Meta data columns:
     "RC" refers to MPRA 1 SigVars in reverse complement orientation. 
     "upstream" are SigVars with the allele placed in the lower third of genomic context rather than the middle (standard oligo design). 
     "reverse" are SigVars in reverse orientation.
-    
+```
+
+#### Important Info
 -- Raw, unmapped data (unprocessed .FASTQ files) for this study are uploaded to SRA, accession: 
 
 -- If using scripts or raw data from this study, please cite:
