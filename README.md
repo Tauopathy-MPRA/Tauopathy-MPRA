@@ -16,7 +16,7 @@ mandatory arguments, in-order:
  File.*              A .FASTQ or .txt file with the raw, merged reads.
  variant_list.*      A .csv or tab file of library sequences. First column is sequence name, second column is sequence. Trim shared primer sequences
  file type           "tab" or "csv"
- olgio length        numeric length of library element/oligo (without shared adaptor sequences)
+ oligo length        numeric length of library element/oligo (without shared adaptor sequences)
  adaptor length      numeric length of shared adaptor sequence
  bc location         location in read of barcode in relation to the oligo. "start" or "end"
  bc length           numeric length of barcodes
