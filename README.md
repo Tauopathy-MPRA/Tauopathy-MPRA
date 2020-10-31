@@ -44,6 +44,21 @@ mandatory arguments:
  
  ```
 
+### seq_repeat_counter.py
+This python3 script counts the longest uninterupted run of mononucleotide or di-nucleotide repeats (e.g. "AAAAAAA" or "CTCTCTCTCTCT") in an oligonucleotide.
+
+Usage
+
+```
+./seq_repeat_counter.py [input.FASTA] [outfile.txt]
+
+mandatory arguments
+ 
+ input.FASTA      input file of DNA sequences in FASTA format in the working directory
+ outfile.txt      an output filename
+ ````
+  
+
 ## Raw Data
 Raw data from this study are provided in the gzipped tar file: raw_data.tar.gz. This contains two subdirectories corresponding to data from MPRA 1 and 2 study stages. Here, raw data is preprocessed, and refers to mapped barcode counts (merged_counts.txt file generated using the MPRA_BC_counter.py script), useful for downstream analysis (see above for file format). Variant metadata files are also provided.
 
